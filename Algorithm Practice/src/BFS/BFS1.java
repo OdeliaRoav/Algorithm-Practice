@@ -20,6 +20,7 @@ public class BFS1 {
 		
 		queue.offer(start);
 		
+		
 		boolean[] visit = new boolean[9];
 		visit[start] = true;
 		
